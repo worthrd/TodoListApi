@@ -1,0 +1,31 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RESTfull todoListApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Test i am alive\"",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/worthrd/TodoListApi.git"
+  },
+  "keywords": [
+    "RESTful"
+  ],
+  "author": "worthrd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/worthrd/TodoListApi/issues"
+  },
+  "homepage": "https://github.com/worthrd/TodoListApi#readme",
+  "devDependencies": {
+    "nodemon": "^1.15.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.6"
+  }
+}
